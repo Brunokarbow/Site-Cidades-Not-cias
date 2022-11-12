@@ -68,19 +68,21 @@ ul {
 }
 
 #topo ul a:hover {
-	color: #66901d;
+	color: black;
 
 }
 
 body.home #navegacao a#home, 
 body.brasil #navegacao a#brasil,
+body.fotos #navegacao a#fotos,
+body.internacional #navegacao a#internacional,
 body.internacional #navegacao a#internacional
 
 {
 
 	color: #fff;
 	background: #de003e;
-	cursor: text;
+	cursor: pointer;
 
 
 }
@@ -128,13 +130,16 @@ body.internacional #navegacao a#internacional
 
 #container-rodape {
 	background: #294c71;
-	padding: 20px;
+	position: sticky;
+	bottom: 0 ;
+	margin: 0 ;
+	padding: 30px;
 }
 
 #rodape {
-	width: 750px;
+	width: 100%;
 	margin: 0 auto;
-	color: ;
+	color: black ;
 }
 
 
@@ -178,7 +183,7 @@ h2 {
 
 	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
 	padding-left: 20px;
-	color: #a1a1a1;
+	color: #a1a1a2;
 }
 
 
@@ -287,7 +292,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: #e50040;
+	color: black;
 
 }
 
@@ -295,4 +300,23 @@ ul {
 		margin: 0;
 		padding: 0;
 		list-style: none;
+}
+
+
+
+
+
+#primario-1 {
+	width: 220px;
+	float: right;
+	margin: 0 115px 20px 195px;
+	
+}
+
+#secundario-2{
+
+	width: 220PX;
+	float: left; 		
+	margin: 0 2 20px 15px;
+	
 }
